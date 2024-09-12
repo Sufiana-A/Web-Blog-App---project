@@ -1,0 +1,25 @@
+<%- include("partials/header.ejs") %>
+
+<% if (posts.length > 0) { %>
+    <% posts.forEach(post => { %>
+        <section id="list-post">
+            <div class="post-content">
+                <div class="post-left">
+                    <h2><%= post.category %></h2>
+                    <img src="image/body-post.jpg" alt="Post Image">
+                </div>
+                <div class="post-right">
+                    <h3><a href="/postingan/<%= post.id %>"><%= post.title %></a></h3>
+                    <p><%= post.content %></p>
+                    <a type="button" class="btn btn-primary btn-sm" href="/edit/<%= post.id %>">Edit Post</a>
+                    <a type="button" class="btn btn-secondary btn-sm" href="/delete/<%= post.id %>">Delete Post</a>
+                </div>
+            </div>
+        </section>
+    <% }); %>
+<% } else { %>
+    <h3>No Post in <%= category %> Yet</h3>
+<% } %>
+
+
+<%- include("partials/footer.ejs") %>

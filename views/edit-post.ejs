@@ -1,0 +1,28 @@
+<%- include("partials/header.ejs") %>
+
+<div class="container">
+<form id="blogForm" action="/edit-submit/<%= post.id %>" method="post">
+    <div>
+        <label for="category">Category:</label>
+        <% if (post.category) { %>
+            <select class="content-input" id="category" name="category" required>
+                <option value="" disabled selected>Pilih kategori</option>
+                <option <% post.category === "Education" ? 'selected' : '' %> value="Education">Education</option>
+                <option <% post.category === "Motivation" ? 'selected' : '' %> value="Motivation">Motivation</option>
+                <option <% post.category === "Poem" ? 'selected' : '' %> value="Poem">Poem</option>
+            </select>
+        <% } %>
+    </div>
+    <div>
+        <label for="title">Title:</label>
+        <input class="content-input" type="text" id="title" name="title" value="<%= post.title %>">
+    </div>
+    <div>
+        <label for="content">Content:</label>
+        <textarea class="content-input" id="content" name="content"><%= post.content %></textarea>
+    </div>
+    <button type="submit">Update Post</button>
+</form>
+</div>
+
+<%- include("partials/footer.ejs") %>

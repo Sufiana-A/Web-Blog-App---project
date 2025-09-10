@@ -1,4 +1,4 @@
-# <img src="https://fonts.gstatic.com/s/i/materialicons/post_add/v6/24px.svg" width="32"/> Web-Blog-App--Project 
+# 📬 Web-Blog-App--Project 
 
 [![EJS](https://img.shields.io/badge/template-EJS-808080.svg)]()
 [![JavaScript](https://img.shields.io/badge/language-JavaScript-F7DF1E.svg?logo=javascript&logoColor=black)]()

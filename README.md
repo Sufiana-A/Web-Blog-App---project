@@ -1,4 +1,4 @@
-# (https://img.shields.io/badge/posts-📝-blue) Web-Blog-App--Project 
+# <img src="https://img.icons8.com/ios-filled/50/000000/new-post.png" width="30"/> Web-Blog-App--Project 
 
 [![EJS](https://img.shields.io/badge/template-EJS-808080.svg)]()
 [![JavaScript](https://img.shields.io/badge/language-JavaScript-F7DF1E.svg?logo=javascript&logoColor=black)]()

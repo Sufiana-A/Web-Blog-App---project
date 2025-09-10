@@ -1,4 +1,4 @@
-# ![Posts](https://img.shields.io/badge/posts-📝-blue) Web-Blog-App--Project 
+# (https://img.shields.io/badge/posts-📝-blue) Web-Blog-App--Project 
 
 [![EJS](https://img.shields.io/badge/template-EJS-808080.svg)]()
 [![JavaScript](https://img.shields.io/badge/language-JavaScript-F7DF1E.svg?logo=javascript&logoColor=black)]()
@@ -51,9 +51,12 @@ cd Web-Blog-App---project
 Install dependencies
 ```bash
 npm install
+```
 Or
+```bash
 npm i
 ```
+---
 
 ## Usage
 
